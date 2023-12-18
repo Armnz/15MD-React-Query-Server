@@ -1,0 +1,20 @@
+
+
+.form {
+  padding: 2rem;
+  border: 1px solid grey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem
+}
+
+.heading {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,25 @@
+.button {
+  background-color: gold;
+  border: 1px solid gold;
+  color: black;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  border-radius: 10px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &.small {
+    padding: 5px 15px;
+    font-size: 1rem;
+    border-radius: 3px;
+  }
+
+  &.outline {
+    background-color: transparent;
+  }
+
+}
